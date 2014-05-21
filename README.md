@@ -16,10 +16,19 @@ Pull out the measurements that are the mean and standard deviation for each meas
 
 Make all the names lower case only
 
-Get the descriptive activity names so that the activities can be named in the data set,
+Get the descriptive activity names so that the activities can be named in the data set:
+
+walking
+walkingupstairs
+walkingdownstairs
+sitting
+standing
+laying
 
 Apply the labels to the data set with the descriptive activity names.
 
 Create the complete cleaned data set with cbind
 
 Export the tidy data set with the average of each variable for each activity and each subject
+
+All attributes and activity names are converted to lower case, underscores and brackets () are removed.
